@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+body,
+html {
+    overflow-y: hidden;
+}
+
+/* // scrollabr design  */
+
+/* For Chrome, Edge, and Safari */
+.scroll-users::-webkit-scrollbar,
+.scroll-mgs::-webkit-scrollbar {
+    width: 4px;
+    /* Set the width of the scrollbar */
+    height: 10px;
+}
+
+/* Track */
+.scroll-users::-webkit-scrollbar-track,
+.scroll-mgs::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Color of the scrollbar track */
+}
+
+/* Handle */
+.scroll-users::-webkit-scrollbar-thumb,
+.scroll-mgs::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Color of the scrollbar handle */
+    border-radius: 4px;
+    /* Optional: add rounded corners to the handle */
+}
+
+/* Handle on hover */
+.scroll-users::-webkit-scrollbar-thumb:hover,
+.scroll-mgs::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Color of the scrollbar handle on hover */
+}
+
+
+/* // scrolbar design end  */
+
+.border-line {
+    /* background-color: blue; */
+    margin: 8px;
+}
+
+.dp-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.nav-icons i {
+    padding: 0px 10px;
+    color: rgba(36, 36, 36, 0.582);
+
+}
+
+.nav-right {
+    background-color: #F0F2F5 !important;
+}
+
+.bg-clr {
+    background-color: #EFEAE2 !important;
+}
+
+.scroll-users {
+    /* background-color: red; */
+    overflow-y: scroll;
+    height: calc(100vh - 102px);
+    /* Set the maximum height for the scrollable div */
+}
+
+.scroll-mgs {
+    overflow-y: scroll;
+    max-height: 100vh;
+    /* Set the maximum height for the scrollable div */
+}
+
+p {
+    font-size: small !important;
+}
+
+.recent_chat_list:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+    /* You can adjust the shadow properties as needed */
+    background-color: #55555523;
+}
+.hover:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+    /* You can adjust the shadow properties as needed */
+    background-color: #55555513;
+}
+
+.dot-3 a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
